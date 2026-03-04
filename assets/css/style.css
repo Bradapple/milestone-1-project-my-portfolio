@@ -1,0 +1,4 @@
+#hero {
+    height: 45vh; 
+    background: url('../images/hero.png') center/cover no-repeat;
+}
