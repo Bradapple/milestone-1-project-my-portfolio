@@ -1,7 +1,26 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
 #hero {
     aspect-ratio: 3 / 2;
     background: url('../images/hero.png') no-repeat center/cover;
     
+}
+
+#index-card {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 @media (min-width: 768px) {
