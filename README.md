@@ -1,6 +1,6 @@
 # Portfolio Website – Milestone 1 (Code Institute)
 
-A personal portfolio website created as part of **Code Institute’s Milestone 1 Project**. This site introduces who I am, showcases my early development work, and provides a simple way for visitors to get in touch. It demonstrates core skills in **HTML**, **CSS**, and **responsive design**.
+A personal portfolio website created as part of **Code Institute’s Milestone 1 Project**. This site introduces who I am, showcases my early development work, and provides a simple way for visitors to get in touch. It demonstrates core skills in **HTML**, **CSS**, **Bootstrap** and **responsive design**.
 
 ---
 
@@ -26,33 +26,21 @@ A personal portfolio website created as part of **Code Institute’s Milestone 1
 
 ### User Stories
 - *As a visitor, I want to understand who the developer is so I can assess their background.*
+![Screenshot showing about me section](/assets/images/userstory1.png)
 - *As a visitor, I want to browse projects easily so I can see their capabilities.*
+![Screenshot showing portfolio](/assets/images/userstory2.png)
 - *As a visitor, I want the site to work well on mobile so I can view it on the go.*
+![Screenshot showing mobile view](/assets/images/userstory-mobile.png)
 - *As a visitor, I want to contact the developer so I can discuss opportunities or feedback.*
+![Screenshot showing contact page](/assets/images/userstory-contact.png)
 
 ---
 
 ## 2. Design
 
-### Colour Scheme
-- Primary colours: **[Add your colours here]**
-- Accent colours: **[Add your colours here]**
-- Rationale: **[Explain why you chose them—contrast, personality, readability]**
-
-### Typography
-- **[Font Name]** for headings.
-- **[Font Name]** for body text.
-- Fonts sourced from **Google Fonts**.
-
-### Imagery & Icons
-- Profile image: **[Add source or attribution if required]**
-- Icons from **Font Awesome**.
-
 ### Wireframes
-Add your wireframes here (images or links):
-- Desktop: **[Insert link or image]**
-- Tablet: **[Insert link or image]**
-- Mobile: **[Insert link or image]**
+- Desktop/Tablet: **![Wireframe for home screen Desktop](/assets/images/wireframe-desktop.png)**
+- Mobile: **![Wireframe for Mobile](/assets/images/wireframe-mobile.png)**
 
 ---
 
@@ -70,7 +58,6 @@ Add your wireframes here (images or links):
 - Add more projects as my portfolio grows.
 - Add subtle animations for improved user experience.
 - Add a downloadable CV.
-- Improve accessibility score further.
 - Add a blog or updates section.
 
 ---
@@ -92,7 +79,7 @@ Add your wireframes here (images or links):
 ### Manual Testing
 - Navigation links tested on desktop and mobile.
 - Contact form tested for required fields.
-- All external links tested to ensure they open correctly.
+- All external links tested to ensure they open correctly in new page.
 - Responsive behaviour tested on:
   - Mobile
   - Tablet
@@ -103,18 +90,16 @@ Add your wireframes here (images or links):
   - Safari
   - Edge
 
-**Replace this section with your actual testing results.**
-
 ### Validator Testing
-- **HTML Validator:** *[Insert results or screenshots]*
-- **CSS Validator:** *[Insert results or screenshots]*
-- **Accessibility (Lighthouse):** *[Insert scores]*
+- **HTML Validator:** *No errors or warnings*
+- **CSS Validator:** *No CSS to fix following validation.*
 
 ### Bugs
 - **Fixed Bugs:**  
-  - *[Describe any issues you fixed]*  
+  - *External Links would not open in new window.*  
+  - *Aria-Label missing from non-text links*  
 - **Known Bugs:**  
-  - *[List any remaining issues]*
+  - *None*
 
 ---
 
@@ -130,14 +115,14 @@ The site was deployed using GitHub Pages:
 5. Save and wait for the site to build.
 
 **Live Site:**  
-👉 *[Insert your GitHub Pages URL here]*
+👉 *https://bradapple.github.io/milestone-1-project-my-portfolio/index.html*
 
 ### How to Clone
 1. Go to the repository.
 2. Click **Code**.
 3. Copy the HTTPS/SSH link.
 4. Run:  
-   `git clone [your-link-here]`
+   `git clone https://github.com/Bradapple/milestone-1-project-my-portfolio.git`
 
 ### How to Fork
 1. Go to the repository.
@@ -149,15 +134,14 @@ The site was deployed using GitHub Pages:
 ## 7. Credits
 
 ### Content
-- All text written by me unless otherwise stated.
+- All text written by me unless otherwise stated in comments.
+- Referral to previous Love Running project.
 
 ### Media
 - Icons: **Font Awesome**
-- Fonts: **Google Fonts**
-- Images: **[Add attributions if required]**
+- Images: **Co-pilot generated**
 
 ### Acknowledgements
 - Code Institute for project guidance.
 - Mentors, tutors, and peers for support.
-- Anyone who provided feedback during development.
 
