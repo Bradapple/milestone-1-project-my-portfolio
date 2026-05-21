@@ -89,6 +89,14 @@ A personal portfolio website created as part of **Code Institute’s Milestone 1
   - Firefox
   - Safari
   - Edge
+- *As a visitor, I want to understand who the developer is so I can assess their background.*
+![Screenshot showing about me section](/assets/images/userstory1.png)
+- *As a visitor, I want to browse projects easily so I can see their capabilities.*
+![Screenshot showing portfolio](/assets/images/userstory2.png)
+- *As a visitor, I want the site to work well on mobile so I can view it on the go.*
+![Screenshot showing mobile view](/assets/images/userstory-mobile.png)
+- *As a visitor, I want to contact the developer so I can discuss opportunities or feedback.*
+![Screenshot showing contact page](/assets/images/userstory-contact.png)
 
 ### Validator Testing
 - **HTML Validator:** *No errors or warnings*
